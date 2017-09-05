@@ -5,7 +5,7 @@
     "mock": "/mock",
     "api": "/api"
   },
-  "db": "",
+  "db": "mongodb://192.168.157.2:27018/easymock",
   "unsplashClientId": "",
   "gravatar": [
     "//img.souche.com/20161230/png/58f22ad636a0f33bad8762688f78d425.png",
@@ -68,6 +68,6 @@
     "timeout": 25000,
     "publicPath": "/dist/",
     "mockPrefix": "/mock/",
-    "APIPrefix": "http://127.0.0.1:7300/api"
+    "APIPrefix": "http://192.168.157.2:7300/api"
   }
 }
